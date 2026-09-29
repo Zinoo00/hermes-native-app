@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		073F41C02FF5F1D100B2EAD2 /* Hermes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hermes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		073F41C02FF5F1D100B2EAD2 /* hermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		073F41C22FF5F1D100B2EAD2 /* Hermes App */ = {
+		073F41C22FF5F1D100B2EAD2 /* hermes-native-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Hermes App";
+			path = "hermes-native-app";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		073F41B72FF5F1D100B2EAD2 = {
 			isa = PBXGroup;
 			children = (
-				073F41C22FF5F1D100B2EAD2 /* Hermes App */,
+				073F41C22FF5F1D100B2EAD2 /* hermes-native-app */,
 				073F41C12FF5F1D100B2EAD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		073F41C12FF5F1D100B2EAD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				073F41C02FF5F1D100B2EAD2 /* Hermes App.app */,
+				073F41C02FF5F1D100B2EAD2 /* hermes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		073F41BF2FF5F1D100B2EAD2 /* Hermes App */ = {
+		073F41BF2FF5F1D100B2EAD2 /* hermes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 073F41CB2FF5F1D200B2EAD2 /* Build configuration list for PBXNativeTarget "Hermes App" */;
+			buildConfigurationList = 073F41CB2FF5F1D200B2EAD2 /* Build configuration list for PBXNativeTarget "hermes" */;
 			buildPhases = (
 				073F41BC2FF5F1D100B2EAD2 /* Sources */,
 				073F41BD2FF5F1D100B2EAD2 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				073F41C22FF5F1D100B2EAD2 /* Hermes App */,
+				073F41C22FF5F1D100B2EAD2 /* hermes-native-app */,
 			);
-			name = "Hermes App";
+			name = hermes;
 			packageProductDependencies = (
 			);
 			productName = "Hermes App";
-			productReference = 073F41C02FF5F1D100B2EAD2 /* Hermes App.app */;
+			productReference = 073F41C02FF5F1D100B2EAD2 /* hermes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 073F41BB2FF5F1D100B2EAD2 /* Build configuration list for PBXProject "Hermes App" */;
+			buildConfigurationList = 073F41BB2FF5F1D100B2EAD2 /* Build configuration list for PBXProject "hermes" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				073F41BF2FF5F1D100B2EAD2 /* Hermes App */,
+				073F41BF2FF5F1D100B2EAD2 /* hermes */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +251,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -281,7 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		073F41BB2FF5F1D100B2EAD2 /* Build configuration list for PBXProject "Hermes App" */ = {
+		073F41BB2FF5F1D100B2EAD2 /* Build configuration list for PBXProject "hermes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				073F41C92FF5F1D200B2EAD2 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		073F41CB2FF5F1D200B2EAD2 /* Build configuration list for PBXNativeTarget "Hermes App" */ = {
+		073F41CB2FF5F1D200B2EAD2 /* Build configuration list for PBXNativeTarget "hermes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				073F41CC2FF5F1D200B2EAD2 /* Debug */,

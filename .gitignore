@@ -1,0 +1,8 @@
+# macOS filesystem metadata
+.DS_Store
+
+# Local Xcode user settings and workspace state
+**/xcuserdata/
+
+# Local browser automation logs and snapshots
+/.playwright-mcp/
